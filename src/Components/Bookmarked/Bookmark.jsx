@@ -11,8 +11,14 @@ const Bookmark = ({blogItem}) => {
             <div>
                 <p className='font-bold text-base my-5'>Bookmarked Blogs: 1</p>
             </div>
-            <div className='h-auto p-3 bg-white  flex  justify-center items-center my-3 rounded-md'>
-                <p className='font-semibold text-base'>{blogItem.blog_title}</p>
+            <div className='h-auto '>
+                
+                {
+                    blogItem.map(item=>(<div className='h-auto p-3 bg-white  flex  justify-center items-center my-3 rounded-md'>
+                        <p className='font-semibold text-base my-5'>{item.blog_title}</p>
+                    </div> ))
+                }
+                
             </div>
 
 

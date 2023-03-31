@@ -6,9 +6,11 @@ import Blogs from '../Blog/Blogs';
 
 const BlogContainer = () => {
     const [blogItem, setBlogItem] = useState([]);
-
+   
  const AddToBookmark = (blog) => {
-    setBlogItem(blog)
+    const newArray=[...blogItem, blog]
+    
+    setBlogItem(newArray)
  }
  
 
@@ -17,7 +19,7 @@ const BlogContainer = () => {
             <div className='md:col-span-4'>
                 <Blogs AddToBookmark={AddToBookmark}></Blogs>
             </div>
-            <div className='bg-[#e7e7e7] h-screen col-span-1 p-1'>
+            <div className='bg-[#e7e7e7] h-[89vh] overflow-scroll col-span-1 p-1 sticky top-16'>
                 <Bookmark blogItem={blogItem} ></Bookmark>
             </div>
         </div>
