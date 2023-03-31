@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark  } from '@fortawesome/free-solid-svg-icons'
 
 const Blog = () => {
     return (
@@ -19,8 +21,9 @@ const Blog = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='flex gap-4'>
                         <p className='font-semibold'>5 minit to read</p>
+                        <p><FontAwesomeIcon className='text-slate-400 ' icon={faBookmark} /></p>
                     </div>
                     {/*  */}
                 </div>
