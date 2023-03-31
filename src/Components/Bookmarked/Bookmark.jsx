@@ -1,9 +1,21 @@
 import React from 'react';
 
-const Bookmark = () => {
+const Bookmark = ({blogItem}) => {
+    console.log(blogItem)
     return (
         <div>
-            <h1>hi i am Bookmark</h1>
+
+            <div className='h-[50px] bg-[#bbbbbb]  text-blue-600 flex  justify-center items-center rounded-md'>
+                <p className='font-semibold text-base'>Spent time on read : 177 min</p>
+            </div>
+            <div>
+                <p className='font-bold text-base my-5'>Bookmarked Blogs: 1</p>
+            </div>
+            <div className='h-auto p-3 bg-white  flex  justify-center items-center my-3 rounded-md'>
+                <p className='font-semibold text-base'>{blogItem.blog_title}</p>
+            </div>
+
+
         </div>
     );
 };

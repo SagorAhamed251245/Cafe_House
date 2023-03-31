@@ -2,17 +2,17 @@
     {
         "id": 1,
 
-        "blog-title": "10 Essential Skills Every Web Developer Should Master",
+        "blog_title": "10 Essential Skills Every Web Developer Should Master",
 
-        "author-name": "Jack Smith",
+        "author_name": "Jack Smith",
 
-        "author-image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "author_image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
 
-        "cover-image": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 ",
+        "cover_image": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 ",
 
-        "Publish Date": "March 28th, 2023",
+        "Publish_Date": "March 28th, 2023",
 
-        "Read time": 7,
+        "Read_time": 7,
 
         "hashtag":"#beginners  #programming"
 
@@ -23,17 +23,17 @@
     {
         "id": 2,
 
-        "blog-title": "Programming for Non-Programmers: A Beginner's Guide",
+        "blog_title": "Programming for Non-Programmers: A Beginner's Guide",
 
-        "author-name": "Alex Johnson",
+        "author_name": "Alex Johnson",
 
-        "author-image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 ",
+        "author_image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 ",
 
-        "cover-image": " https://tinyurl.com/ayhsvds8",
+        "cover_image": " https://tinyurl.com/ayhsvds8",
 
-        "Publish Date": "January 14th, 2023",
+        "Publish_Date": "January 14th, 2023",
 
-        "Read time": 12,
+        "Read_time": 12,
 
         "hashtag":"#beginners  #programming"
 
@@ -44,17 +44,17 @@
     {
         "id": 3,
 
-        "blog-title": "The Art of Debugging: How to Fix Code Like a Pro",
+        "blog_title": "The Art of Debugging: How to Fix Code Like a Pro",
 
-        "author-name": "Emily Chen",
+        "author_name": "Emily Chen",
 
-        "author-image": "https://media.geeksforgeeks.org/wp-content/uploads/20190902105053/Debugging-Tips-To-Get-Better-At-It.png ",
+        "author_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
 
-        "cover-image": " ",
+        "cover_image": "https://www.sjinnovation.com/sites/default/files/pictures/blog-post/debug-1024x646.jpg",
 
-        "Publish Date": "September 12th, 2022",
+        "Publish_Date": "September 12th, 2022",
 
-        "Read time": 10,
+        "Read_time": 10,
 
         "hashtag":"#beginners  #programming"
 
@@ -65,17 +65,17 @@
     {
         "id": 4,
 
-        "blog-title": "Mastering JavaScript: Tips and Tricks",
+        "blog_title": "Mastering JavaScript: Tips and Tricks",
 
-        "author-name": "Rachel Lee",
+        "author_name": "Rachel Lee",
 
-        "author-image": "https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1021&q=80 ",
+        "author_image": "https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1021&q=80 ",
 
-        "cover-image": " https://tinyurl.com/mr42c896",
+        "cover_image": " https://tinyurl.com/mr42c896",
 
-        "Publish Date": "August 24th, 2022",
+        "Publish_Date": "August 24th, 2022",
 
-        "Read time": 9,
+        "Read_time": 9,
 
         "hashtag":"#beginners  #programming"
 
@@ -86,17 +86,17 @@
     {
         "id": 5,
 
-        "blog-title": "The Role of Artificial Intelligence in Web Development",
+        "blog_title": "The Role of Artificial Intelligence in Web Development",
 
-        "author-name": "David Nguyen",
+        "author_name": "David Nguyen",
 
-        "author-image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 ",
+        "author_image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 ",
 
-        "cover-image": "https://tinyurl.com/bdfukf7u ",
+        "cover_image": "https://tinyurl.com/bdfukf7u ",
 
-        "Publish Date": "April 1st, 2023",
+        "Publish_Date": "April 1st, 2023",
 
-        "Read time": 15,
+        "Read_time": 15,
 
         "hashtag":"#beginners  #programming"
 
