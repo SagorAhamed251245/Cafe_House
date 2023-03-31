@@ -1,17 +1,18 @@
 
 import './App.css'
-  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import BlogContainer from './Components/BlogsContainer/BlogContainer'
+
 import Nav from './Components/Nav/Nav'
-import Container from './Components/Container/Container'
+
+
 function App() {
- 
+  
 
   return (
     <div className="App">
-      <Nav></Nav>
-      <hr />
-      <Container></Container>
+       <Nav></Nav>
+       <hr />
+      <BlogContainer></BlogContainer>
     </div>
   )
 }

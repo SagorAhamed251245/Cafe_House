@@ -1,9 +1,12 @@
 import React from 'react';
+import Blog from './Blog';
 
 const Blogs = () => {
     return (
         <>
-            <Blogs></Blogs>
+            <Blog></Blog>
+            <Blog></Blog>
+            
         </>
     );
 };
