@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const Blog = ({ blog ,AddToBookmark ,markAsRead , red }) => {
-   
+const Blog = ({ blog ,AddToBookmark ,markAsRead }) => {
     
+    const [colors, setColors ]= useState('black')
+    
+     const changeColor = ()=>{
+        let redColor='rgb(225, 105, 94)';
+        setColors(redColor)
+     } 
+   
     let color = {
-        "color":`${red}`
+        "color":`${colors}`
     }
    
     const { cover_image, author_image, author_name , Publish_Date, Read_time, blog_title, hashtag} = blog
@@ -30,8 +36,8 @@ const Blog = ({ blog ,AddToBookmark ,markAsRead , red }) => {
 
                     <div className='flex gap-4'>
                         <p className='font-semibold'>{Read_time}min to read</p>
-                        <p><FontAwesomeIcon onClick={()=>AddToBookmark(blog) }  
-                        icon={faBookmark} style={color} /></p>
+                        <p onClick={changeColor}><FontAwesomeIcon onClick={()=>AddToBookmark(blog)  }  
+                        icon={faBookmark} style={color}  /></p>
 
                     </div>
                     {/*  */}
