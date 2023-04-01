@@ -2,10 +2,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const Blog = ({ blog ,AddToBookmark}) => {
+const Blog = ({ blog ,AddToBookmark ,markAsRead}) => {
 
    
-    const { cover_image, author_image, author_name ,Publish_Date,Read_time,blog_title,hashtag} = blog
+    const { cover_image, author_image, author_name , Publish_Date, Read_time, blog_title, hashtag} = blog
     return (
         <div className='h-auto  md:w-4/5 mx-auto p-5 my-12 rounded-lg '>
             <div id='img-container'>
@@ -26,7 +26,7 @@ const Blog = ({ blog ,AddToBookmark}) => {
 
                     <div className='flex gap-4'>
                         <p className='font-semibold'>{Read_time}min to read</p>
-                        <p><FontAwesomeIcon onClick={()=>AddToBookmark(blog)}  className='text-slate-400 ' icon={faBookmark} /></p>
+                        <p><FontAwesomeIcon onClick={()=>AddToBookmark(blog) }  className='text-slate-400 ' icon={faBookmark} /></p>
 
                     </div>
                     {/*  */}
@@ -42,7 +42,7 @@ const Blog = ({ blog ,AddToBookmark}) => {
                 <footer className='my-5'>
                     <p className='font-semibold text-slate-600'>{hashtag}</p>
 
-                    <p className='font-semibold text-blue-600 mt-5 cursor-pointer'>Mark as read</p>
+                    <p onClick={()=>markAsRead(Read_time)} className='font-semibold text-blue-600 mt-5 cursor-pointer'>Mark as read</p>
                 </footer>
             </div>
             <hr className='border-black w-11/12 mx-auto mt-20 ' />

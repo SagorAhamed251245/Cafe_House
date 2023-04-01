@@ -1,22 +1,13 @@
 import React, { useState } from 'react';
 
-const Bookmark = ({blogItem}) => {
-    const blogItems = blogItem
+const Bookmark = ({blogItem, times}) => {
 
-    let totalTime=0;
-
-    for( const blog of blogItems){
-
-       totalTime = blog.Read_time + totalTime;
-      
-       
     
-    }
     return (
         <div>
 
             <div className='h-[50px] bg-[#bbbbbb]  text-blue-600 flex  justify-center items-center rounded-md'>
-                <p className='font-semibold text-base'>Spent time on read: {totalTime} min</p>
+                <p className='font-semibold text-base'>Spent time on read: {times} min</p>
             </div>
             <div>
                 <p className='font-bold text-base my-5'>Bookmarked Blogs: {blogItem.length}</p>
