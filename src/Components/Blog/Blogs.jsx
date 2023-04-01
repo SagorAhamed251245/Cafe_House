@@ -3,7 +3,8 @@ import Blog from './Blog';
  
  
 
-const Blogs = ({AddToBookmark , markAsRead}) => {
+const Blogs = ({AddToBookmark , markAsRead , red}) => {
+    
 
     const [blogs, setBlogs]= useState([]) ;
 
@@ -16,7 +17,7 @@ const Blogs = ({AddToBookmark , markAsRead}) => {
     return (
         <>
             {
-                blogs.map(blog=> <Blog key={blog.id} blog={blog}  AddToBookmark={AddToBookmark}  markAsRead={markAsRead}></Blog>)
+                blogs.map(blog=> <Blog key={blog.id} blog={blog}  AddToBookmark={AddToBookmark}  markAsRead={markAsRead} red={red}></Blog>)
             }
             
         </>
