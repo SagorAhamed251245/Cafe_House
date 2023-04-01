@@ -11,12 +11,17 @@ const BlogContainer = () => {
    
 
     const AddToBookmark = (blog) => {
+        
+
+        const alreadyAdded = blogItem.filter(item =>  item.id == blog.id );
+        console.log(alreadyAdded)
+
+        if(alreadyAdded.length > 0){
+            alert('already added')
+        }
+        
         const newArray = [...blogItem, blog]
-
-
-        console.log(newArray)
-        const alreadyAdded = newArray.filter(id =>  id.id == id.id )
-        setBlogItem(alreadyAdded)
+        setBlogItem(newArray)
     }
    
     const markAsRead = (Read_time) => {
