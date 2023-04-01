@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Blog from './Blog';
+import QuestionAnswer from '../Question Answer/QuestionAnswer';
  
  
 
@@ -19,7 +20,7 @@ const Blogs = ({AddToBookmark , markAsRead }) => {
             {
                 blogs.map(blog=> <Blog key={blog.id} blog={blog}  AddToBookmark={AddToBookmark}  markAsRead={markAsRead} ></Blog>)
             }
-            
+            <QuestionAnswer></QuestionAnswer>
         </>
     );
 };
