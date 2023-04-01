@@ -53,7 +53,7 @@ const Blog = ({ blog ,AddToBookmark ,markAsRead }) => {
                 <footer className='my-5'>
                     <p className='font-semibold text-slate-600'>{hashtag}</p>
 
-                    <p onClick={()=>markAsRead(Read_time)} className='font-semibold text-blue-600 mt-5 cursor-pointer'>Mark as read</p>
+                    <p onClick={()=>markAsRead(Read_time)} className='font-semibold inline-block text-blue-600 mt-5 cursor-pointer'>Mark as read</p>
                 </footer>
             </div>
             <hr className='border-black w-11/12 mx-auto mt-20 ' />
