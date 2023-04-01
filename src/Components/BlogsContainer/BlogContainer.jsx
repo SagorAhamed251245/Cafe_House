@@ -18,7 +18,7 @@ const BlogContainer = () => {
         console.log(alreadyAdded)
 
         if(alreadyAdded.length > 0){
-            toast.warn("Wow so easy!")
+            toast.warn("Already Bookmarked!")
         }
         
         const newArray = [...blogItem, blog]
@@ -41,7 +41,7 @@ const BlogContainer = () => {
             <div className='md:col-span-4'>
                 <Blogs AddToBookmark={AddToBookmark} markAsRead={markAsRead}></Blogs>
             </div>
-            <div className='bg-[#e7e7e7] h-[89vh] overflow-scroll col-span-1 p-1 sticky top-16'>
+            <div className='bg-[#e7e7e7] md:h-[89vh]  h-auto overflow-scroll col-span-1 p-1 sticky top-16'>
                 <Bookmark blogItem={blogItem} times={times}></Bookmark>
             </div>
         </div>
