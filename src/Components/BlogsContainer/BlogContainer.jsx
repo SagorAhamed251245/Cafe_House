@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 
 import Bookmark from '../Bookmarked/Bookmark';
 import Blogs from '../Blog/Blogs';
@@ -17,7 +18,7 @@ const BlogContainer = () => {
         console.log(alreadyAdded)
 
         if(alreadyAdded.length > 0){
-            alert('already added')
+            toast.warn("Wow so easy!")
         }
         
         const newArray = [...blogItem, blog]
